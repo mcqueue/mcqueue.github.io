@@ -24,7 +24,7 @@ h1, p {
     border-bottom-color: #303030;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 50%;
     }
 section #dogo {
     margin-left: auto;
@@ -57,7 +57,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5pt;
-    width: 25%;
+    width: 50%;
     display: block;
     text-align: center;
     background-color: #454545;
