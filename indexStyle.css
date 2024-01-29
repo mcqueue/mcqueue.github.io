@@ -41,7 +41,7 @@ h1, p {
     width: 50%;
 }
 a .hundred {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
