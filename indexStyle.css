@@ -14,6 +14,7 @@ button {
     background-color: #454545
     }
 h1, p {
+    display: inline-block;
     color: White;
     text-align: center;
     background-color: #454545;
@@ -22,19 +23,30 @@ h1, p {
     border-left-color: #606060;
     border-right-color: #606060;
     border-bottom-color: #303030;
+    }
+.dogo {
+    display: inline-block;
+    margin-right: auto;
+    width: 50%;
+    }
+.dogo2 {
+    display: inline-block;
+    margin-left: auto;
+    width: 50%;
+    }
+.dogbox {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a .hundred {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     }
-section #dogo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    }
-a #hundred {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.dog {
     width: 50%;
     }
 img {
@@ -46,7 +58,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     }
 h2 {
     border: 5px solid;
@@ -83,9 +94,8 @@ fieldset {
     border-bottom-color: #303030;
     background-color: #454545;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin: auto;
+    width: 75%;
     padding: 10px;
     }
 section {
@@ -120,3 +130,21 @@ a:visited {
 a:hover {
     color: lavender;
 }
+.top-left {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+}
+.top-right {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+    }
+.top-hat {
+    display: inline-block
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
