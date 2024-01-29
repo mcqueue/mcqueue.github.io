@@ -106,7 +106,10 @@ iframe {
 hr {
     height: 4px;
     background-color: black;
-    border-color: black;
+    border-top-color: #909090;
+    border-left-color: #606060;
+    border-right-color: #606060;
+    border-bottom-color: #303030;
     }
 a {
     color: white;
