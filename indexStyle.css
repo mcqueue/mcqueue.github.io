@@ -106,6 +106,7 @@ iframe {
 hr {
     height: 4px;
     background-color: black;
+    border-color: black;
     }
 a {
     color: white;
