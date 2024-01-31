@@ -68,7 +68,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5pt;
-    width: 50%;
+    width: 95%;
     display: block;
     text-align: center;
     background-color: #454545;
@@ -148,3 +148,14 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.chart {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
