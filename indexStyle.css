@@ -155,7 +155,16 @@ svg {
     left: 200px;
 }
 .chart {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+object {
+    display: inline-block;
+    border: 5px solid #303030;
+    border-top-color: #909090;
+    border-left-color: #606060;
+    border-right-color: #606060;
+    border-bottom-color: #303030;
 }
