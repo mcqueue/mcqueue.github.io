@@ -28,7 +28,7 @@ body {
     text-align: center;
     margin: 0.2em;
     padding: 0.1em;
-    transition: 1s;
+    transition: 0.5s;
 }
 .menuBar a:hover {
     text-shadow: 0px 0px 1px black;
