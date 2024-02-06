@@ -17,12 +17,13 @@ body {
     margin: 0 auto;
 }
 .menuBar a {
-    display: inline;
+    display: inline-block;
     float: left;
     color: black;
     text-decoration: none;
     border-radius: 3.125px;
     width: 20%;
+    min-width: 134px;
     font-size: 30pt;
     text-align: center;
     margin: 0.2em;
