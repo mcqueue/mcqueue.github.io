@@ -1,22 +1,56 @@
+* {
+  box-sizing: border-box;
+}
 body {
     font-family: Garamond, serif;
     background-color: gray;
+    background-position: fixed;
+    margin: 0;
 }
 .menuBar {
-    width: 100%;
+    position: fixed;
     overflow: auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    align: center;
+    display: block;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
 }
 .menuBar a {
+    display: inline;
     float: left;
     color: black;
     text-decoration: none;
-    width: 33.3%;
+    border-radius: 3.125px;
+    width: 20%;
     font-size: 30pt;
     text-align: center;
+    margin: 0.2em;
+    padding: 0.1em;
+    transition: 1s;
 }
 .menuBar a:hover {
-    background-color: black;
-    color: white;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: inset 0px 0px 5px black;
 }
+.home {
+    text-decoration: underline !important;
+}
+.main {
+    width: 100%;
+    padding: 100px 10px 10px 10px;
+    display: inline-block;
+}
+.l1 {
+    outline: 1px solid white;
+}
+.f1 {
+    margin: auto;
+    width: 25%;
+}
+.secondary {
+    display: inline-block;
+    width: 100%;
+}
+
+note to change menu vertical when width max 800
